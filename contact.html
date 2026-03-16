@@ -1,0 +1,87 @@
+<!-- contact.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact · Halimathu Sahadiya</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">HS</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="todo-app.html">Todo App</a></li>
+          <li><a href="product-filter.html">Filter</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container contact-page">
+      <h2><i class="fas fa-address-card"></i> Get In Touch</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item large">
+            <i class="fas fa-envelope"></i>
+            <span>halimathu.s@fresher.dev</span>
+          </div>
+          <div class="contact-item large">
+            <i class="fas fa-phone-alt"></i>
+            <span>+91 98765 43210</span>
+          </div>
+          <div class="contact-item large">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Chennai, India</span>
+          </div>
+          <div class="contact-item large">
+            <i class="fab fa-linkedin"></i>
+            <span>linkedin.com/in/halimathu-s</span>
+          </div>
+          <div class="contact-item large">
+            <i class="fab fa-github"></i>
+            <span>github.com/halimathu-dev</span>
+          </div>
+          <div class="contact-item large">
+            <i class="fab fa-twitter"></i>
+            <span>twitter.com/halimathu_codes</span>
+          </div>
+
+          <div class="resume-download">
+            <h4><i class="fas fa-file-pdf"></i> Resume</h4>
+            <a href="#" class="btn secondary"
+              ><i class="fas fa-download"></i> Download Resume</a
+            >
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+          <form id="quickContact" class="quick-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="text" placeholder="Subject" />
+            <textarea rows="4" placeholder="Your message..."></textarea>
+            <button type="submit" class="btn primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Halimathu Sahadiya · Fresher Full-stack Developer</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
